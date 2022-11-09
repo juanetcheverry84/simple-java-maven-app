@@ -3,7 +3,7 @@ job('Java Maven App DSL') {
     scm {
         git('https://github.com/juanetcheverry84/simple-java-maven-app.git', 'master') { node ->
             node / gitConfigName('juanetcheverry84')
-            node / gitConfigEmail('juanmanuel.etcheerry@gmail.com')
+            node / gitConfigEmail('juanmanuel.etcheverry@gmail.com')
         }
     }
     steps {
